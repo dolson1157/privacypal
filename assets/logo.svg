@@ -1,1 +1,8 @@
-<svg><!-- logo --></svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="40" viewBox="0 0 160 40">
+  <rect width="160" height="40" fill="#E0F2F1"/>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="14" fill="#00796B">
+    PrivacyPal
+  </text>
+</svg>

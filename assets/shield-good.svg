@@ -1,1 +1,5 @@
-<svg><!-- good --></svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <path d="M24 4l18 6v10c0 11-8 21-18 24C14 41 6 31 6 20V10z" fill="#E8F5E9" stroke="#388E3C" stroke-width="2"/>
+  <text x="50%" y="60%" text-anchor="middle" fill="#388E3C" font-size="12" font-family="Arial">Good</text>
+</svg>
