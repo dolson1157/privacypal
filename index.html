@@ -1,67 +1,26 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PrivacyPal Screener Quiz</title>
-  <link rel="stylesheet" href="style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PrivacyPal Quiz</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>🛡️ PrivacyPal</h1>
-      <p>Quick 6-question privacy screener for you or your loved one</p>
-    </header>
+  <header>
+    <img src="assets/logo.svg" alt="PrivacyPal Logo" class="logo" />
+    <h1>PrivacyPal Quick Privacy Check</h1>
+  </header>
 
-    <form id="quiz">
-      <div class="question" data-index="0">
-        <p>1. Do you use the same password across multiple websites?</p>
-        <button type="button" class="btn yes">Yes</button>
-        <button type="button" class="btn no">No</button>
-        <div class="tip"></div>
-      </div>
-      <div class="question" data-index="1">
-        <p>2. Do you click links in emails or texts without checking the sender?</p>
-        <button type="button" class="btn yes">Yes</button>
-        <button type="button" class="btn no">No</button>
-        <div class="tip"></div>
-      </div>
-      <div class="question" data-index="2">
-        <p>3. Do you use public Wi-Fi without a VPN?</p>
-        <button type="button" class="btn yes">Yes</button>
-        <button type="button" class="btn no">No</button>
-        <div class="tip"></div>
-      </div>
-      <div class="question" data-index="3">
-        <p>4. Do you share personal information over the phone or email often?</p>
-        <button type="button" class="btn yes">Yes</button>
-        <button type="button" class="btn no">No</button>
-        <div class="tip"></div>
-      </div>
-      <div class="question" data-index="4">
-        <p>5. Do you know if your data has ever been part of a breach?</p>
-        <button type="button" class="btn yes">Yes</button>
-        <button type="button" class="btn no">No</button>
-        <div class="tip"></div>
-      </div>
-      <div class="question" data-index="5">
-        <p>6. Do you regularly update your devices and apps?</p>
-        <button type="button" class="btn yes">Yes</button>
-        <button type="button" class="btn no">No</button>
-        <div class="tip"></div>
-      </div>
+  <main>
+    <div id="quiz-container" class="quiz-container"></div>
+    <div id="result-container" class="result-container" style="display: none;"></div>
+  </main>
 
-      <div class="submit">
-        <button type="submit" class="submit-btn">See My Score</button>
-      </div>
-    </form>
-
-    <div id="result" class="result hidden">
-      <h2>Your Privacy Readiness:</h2>
-      <p class="score"></p>
-      <div class="summary"></div>
-    </div>
-  </div>
+  <footer>
+    <p>PrivacyPal &copy; 2025</p>
+  </footer>
 
   <script src="logic.js"></script>
 </body>
