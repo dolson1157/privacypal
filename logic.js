@@ -1,1 +1,1 @@
-Placeholder content for logic.js
+console.log('Quiz logic loaded');

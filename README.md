@@ -1,1 +1,3 @@
-Placeholder content for README.md
+# PrivacyPal
+
+Client-side privacy screener quiz.
