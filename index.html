@@ -1,1 +1,52 @@
-<!DOCTYPE html><html><head><title>PrivacyPal</title><link rel='stylesheet' href='style.css'></head><body><h1>PrivacyPal Placeholder</h1><script src='script.js'></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PrivacyPal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>PrivacyPal: Online Privacy Self-Check</h1>
+    <p class="intro">Answer a few questions to assess your online privacy posture.</p>
+
+    <form id="quiz-form">
+      <div class="question-card">
+        <p>1. Do you use the same password across multiple sites?</p>
+        <button type="button" class="answer-btn" data-score="0">Yes</button>
+        <button type="button" class="answer-btn" data-score="2">No</button>
+      </div>
+      <div class="question-card">
+        <p>2. Do you use a password manager?</p>
+        <button type="button" class="answer-btn" data-score="2">Yes</button>
+        <button type="button" class="answer-btn" data-score="0">No</button>
+      </div>
+      <div class="question-card">
+        <p>3. Do you regularly check your data breach exposure?</p>
+        <button type="button" class="answer-btn" data-score="2">Yes</button>
+        <button type="button" class="answer-btn" data-score="0">No</button>
+      </div>
+      <div class="question-card">
+        <p>4. Are you currently using a VPN on public Wi-Fi?</p>
+        <button type="button" class="answer-btn" data-score="2">Yes</button>
+        <button type="button" class="answer-btn" data-score="0">No</button>
+      </div>
+      <div class="question-card">
+        <p>5. Do you use multi-factor authentication (MFA) on email and banking?</p>
+        <button type="button" class="answer-btn" data-score="2">Yes</button>
+        <button type="button" class="answer-btn" data-score="0">No</button>
+      </div>
+      <button id="submit-btn" type="submit">Check My Score</button>
+    </form>
+
+    <div id="results" class="results hidden">
+      <h2>Your Privacy Score: <span id="score-text"></span></h2>
+      <p id="score-message"></p>
+      <button id="retake-btn">Retake Quiz</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
